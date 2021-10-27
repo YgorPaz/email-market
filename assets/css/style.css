@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#email-market {
+    width: 600px;
+    height: 1300px;
+}
+
+header {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#email-body {
+    width: 100%;
+    height: 100%;
+    background-color: #21304f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.email-title h1 {
+    color: #bbf41c;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.email-text {
+    color: #fff;
+}
+
+.email-text span {
+    color: #bbf41c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #17e4ff;
+}
+
+.button a {
+    color: #21304f;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.email-text2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #bbf41c;
+}
+
+.email-text2 span {
+    color: #bbf41c;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 92px;
+}
+.redes-social{
+    margin-bottom: 50px;
+}
+.redes-social a{
+    margin-right: 10px;
+    
+}
+.email-text3 {
+    margin-top: 160px;
+    
+}
+.email-text3 div p{
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
